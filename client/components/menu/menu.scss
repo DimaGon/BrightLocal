@@ -47,3 +47,9 @@
     font-size    : 1rem;
   }
 }
+
+@media screen and (max-height: 310px){
+  .menu__item {
+    padding : 5px;
+  }
+}
