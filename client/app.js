@@ -7,6 +7,7 @@ import "./components/header/header.scss";
 import "./components/logo/logo.scss";
 import "./components/navigation/navigation.scss";
 import "./components/menu/menu.scss";
+import "./components/footer/footer.scss";
 
 // Scripts
 import "./components/navigation/navigation";

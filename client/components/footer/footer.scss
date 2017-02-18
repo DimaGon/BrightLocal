@@ -1,0 +1,23 @@
+@import "../../common/variables";
+
+.footer {
+  background-color : $color-dark-blue;
+}
+
+.footer__inner {
+  display   : flex;
+  width     : 100%;
+  flex-flow : column nowrap;
+  padding   : 20px 0;
+}
+
+.footer__logo {
+  margin-top : 15px;
+  font-size  : 0;
+}
+
+@media screen and (min-width : 992px) {
+  .footer__inner {
+    align-items : center;
+  }
+}
