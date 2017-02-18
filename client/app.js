@@ -14,3 +14,4 @@ import "./components/main-content/main-content.scss";
 
 // Scripts
 import "./components/navigation/navigation";
+import "./components/form/form";
