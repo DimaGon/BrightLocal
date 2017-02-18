@@ -1,0 +1,16 @@
+.breadcrumbs {
+  display   : flex;
+  width     : 100%;
+  flex-flow : row nowrap;
+}
+
+.breadcrumbs__item {
+  font-style : italic;
+}
+
+.breadcrumbs__link {
+  &:after {
+    content : "/";
+    margin  : 0 5px;
+  }
+}
