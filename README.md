@@ -14,4 +14,6 @@ Installation Guide
 
   * Install npm dependencies with command <code>npm i</code>;
   
-  * Serve your project on <a href="//localhost:8080/index.html">localhost:8080/index.html</a> <code>npm start</code>
+  * Run your project with <code>npm start</code> command;
+  
+  * See your project on <a href="//localhost:8080">localhost:8080</a>.
