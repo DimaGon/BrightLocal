@@ -23,12 +23,14 @@
   font-size    : 1.6rem;
   cursor       : pointer;
   margin-right : 20px;
+  width        : 100%;
 }
 
 .navigation__icon--close {
   position : absolute;
   right    : 20px;
   top      : 20px;
+  width    : auto;
 }
 
 .navigation__menu {
@@ -45,6 +47,10 @@
 }
 
 @media screen and (min-width : 992px) {
+  .navigation__icon {
+    width : auto;
+  }
+
   .navigation__icon--burger {
     display : none;
   }
@@ -52,6 +58,7 @@
   .navigation__icon--close {
     display : none;
   }
+
   .navigation__menu {
     position : static;
     height   : auto;
