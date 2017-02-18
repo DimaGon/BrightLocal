@@ -1,0 +1,54 @@
+@import "variables";
+
+html {
+  font-family : sans-serif;
+  font-style  : normal;
+  font-weight : normal;
+  font-size   : 16px;
+}
+
+body {
+  margin  : 0;
+  padding : 0;
+}
+
+* {
+  box-sizing : border-box;
+  outline    : none;
+}
+
+img {
+  width     : auto;
+  max-width : 100%;
+  height    : auto;
+}
+
+button {
+  cursor : pointer;
+  &:focus {
+    outline : none;
+  }
+}
+
+a {
+  text-decoration : none;
+  cursor          : pointer;
+  &:hover &:focus, &:visited {
+    text-decoration : none;
+    outline         : none;
+  }
+  &:visited {
+    outline : none;
+  }
+}
+
+ul {
+  margin     : 0;
+  padding    : 0;
+  list-style : none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight : inherit;
+  margin      : 0;
+}
