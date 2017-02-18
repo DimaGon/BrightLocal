@@ -1,0 +1,42 @@
+@import "../../common/variables";
+
+.form {
+  background-color : $color-light-blue;
+  padding          : 5px 5px 20px;
+}
+
+.form__tabs {
+  display     : flex;
+  flex-flow   : row nowrap;
+  align-items : center;
+}
+
+.form__tab {
+  transition  : background-color 0.2s;
+  padding     : 5px 10px;
+  cursor      : pointer;
+  font-weight : bold;
+
+  &.active {
+    background-color : white;
+  }
+}
+
+.form__inner {
+  background-color : white;
+  padding          : 5px 10px 30px;
+}
+
+.form__content {
+  display        : none;
+  padding-bottom : 40px;
+
+  &.active {
+    display : block;
+  }
+}
+
+.form__footer {
+  padding    : 20px 0 30px;
+  border-top : 1px solid $color-light-blue;
+}

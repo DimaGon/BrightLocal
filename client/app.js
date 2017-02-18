@@ -9,6 +9,8 @@ import "./components/navigation/navigation.scss";
 import "./components/menu/menu.scss";
 import "./components/footer/footer.scss";
 import "./components/breadcrumbs/breadcrumbs.scss";
+import "./components/form/form.scss";
+import "./components/main-content/main-content.scss";
 
 // Scripts
 import "./components/navigation/navigation";
