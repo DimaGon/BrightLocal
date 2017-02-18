@@ -1,0 +1,36 @@
+@import "../../common/variables";
+
+.button {
+  transition       : background-color 0.2s;
+  padding          : 15px;
+  font-size        : 1.1rem;
+  border-radius    : $border-radius;
+  background-color : transparent;
+  border           : none;
+  cursor           : pointer;
+  color            : white;
+}
+
+.button--green {
+  background-color : $color-button-green;
+
+  &:hover {
+    background-color : darken($color-button-green, 10%);
+  }
+}
+
+.button--orange {
+  background-color : $color-button-orange;
+
+  &:hover {
+    background-color : darken($color-button-orange, 10%);
+  }
+}
+
+.button--red {
+  background-color : $color-button-red;
+
+  &:hover {
+    background-color : darken($color-button-red, 10%);
+  }
+}

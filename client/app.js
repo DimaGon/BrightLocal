@@ -11,6 +11,7 @@ import "./components/footer/footer.scss";
 import "./components/breadcrumbs/breadcrumbs.scss";
 import "./components/form/form.scss";
 import "./components/main-content/main-content.scss";
+import "./components/button/button.scss";
 
 // Scripts
 import "./components/navigation/navigation";
