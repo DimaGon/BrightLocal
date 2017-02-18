@@ -1,0 +1,16 @@
+@import "../../common/variables";
+
+.logo {
+  font-size   : 0;
+  font-family : 'Hind', sans-serif;
+}
+
+.logo__text {
+  font-size      : 1.3rem;
+  color          : white;
+  text-transform : capitalize;
+}
+
+.logo__text--green {
+  color : $color-green;
+}
