@@ -28,6 +28,39 @@
   color            : black;
 }
 
+.header__button-text {
+  vertical-align : middle;
+  font-size      : 1em;
+}
+
 .header__icon {
-  display : none;
+  display        : none;
+  color          : white;
+  font-size      : 1.3em;
+  margin-right   : 10px;
+  vertical-align : middle;
+}
+
+@media screen and (min-width : 400px) {
+  .header__icon {
+    transition : color 0.2s;
+    display    : inline-block;
+  }
+}
+
+@media screen and (min-width : 768px) {
+  .header__button {
+    font-size : 1rem;
+  }
+}
+
+@media screen and (min-width : 1025px) {
+  .header__button:hover {
+    background-color : $color-green;
+    color            : black;
+
+    .header__icon {
+      color : black;
+    }
+  }
 }
