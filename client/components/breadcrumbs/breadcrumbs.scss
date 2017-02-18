@@ -1,3 +1,5 @@
+@import "../../common/variables";
+
 .breadcrumbs {
   display   : flex;
   width     : 100%;
@@ -9,6 +11,7 @@
 }
 
 .breadcrumbs__link {
+  color : $color-blue;
   &:after {
     content : "/";
     margin  : 0 5px;
