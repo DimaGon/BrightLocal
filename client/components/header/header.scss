@@ -1,3 +1,5 @@
+@import "../../common/variables";
+
 .header {
   background-color : #1d2b3b;
 }
@@ -8,4 +10,24 @@
   align-items     : center;
   justify-content : space-between;
   padding         : 10px 0;
+}
+
+.header__button {
+  background-color : transparent;
+  transition       : background-color 0.2s, color 0.2s;
+  color            : $color-green;
+  border           : 1px solid $color-green;
+  border-radius    : $border-radius;
+  padding          : 10px 12px;
+  text-transform   : capitalize;
+  font-size        : 0.9rem;
+}
+
+.header__button:active {
+  background-color : $color-green;
+  color            : black;
+}
+
+.header__icon {
+  display : none;
 }
