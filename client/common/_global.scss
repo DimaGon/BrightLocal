@@ -27,7 +27,7 @@ button {
 a {
   text-decoration : none;
   cursor          : pointer;
-  &:hover &:focus, &:visited {
+  &:hover, &:focus, &:visited {
     text-decoration : none;
     outline         : none;
   }
