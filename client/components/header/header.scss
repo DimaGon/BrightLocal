@@ -1,0 +1,11 @@
+.header {
+  background-color : #1d2b3b;
+}
+
+.header__inner {
+  display         : flex;
+  width           : 100%;
+  align-items     : center;
+  justify-content : space-between;
+  padding         : 10px 0;
+}
